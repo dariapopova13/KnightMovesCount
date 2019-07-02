@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 @Component(value = "knightBFSSearch")
-public class KnightMovementSearchAlgorithmImpl implements KnightMovementSearchAlgorithm {
+public class KnightMovementSearchAlgorithmWithBFS implements KnightMovementSearchAlgorithm {
 
     private AppUtils appUtils;
     private List<Coordinate> possibleKnightMoves;
 
-    public KnightMovementSearchAlgorithmImpl() {
+    public KnightMovementSearchAlgorithmWithBFS() {
         this.possibleKnightMoves = new ArrayList<>(8);
         possibleKnightMoves.add(new Coordinate(2, -1));
         possibleKnightMoves.add(new Coordinate(2, 1));

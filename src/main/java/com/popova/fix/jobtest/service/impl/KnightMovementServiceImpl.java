@@ -1,7 +1,6 @@
 package com.popova.fix.jobtest.service.impl;
 
 import com.popova.fix.jobtest.algorithm.KnightMovementSearchAlgorithm;
-import com.popova.fix.jobtest.algorithm.impl.KnightMovementSearchAlgorithmImpl;
 import com.popova.fix.jobtest.model.Coordinate;
 import com.popova.fix.jobtest.model.Node;
 import com.popova.fix.jobtest.service.KnightMovementService;
